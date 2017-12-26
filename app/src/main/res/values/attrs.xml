@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchLayout">
+        <!--左侧图片-->
+        <attr name="tag_src" format="reference"/>
+        <!--左侧文字-->
+        <attr name="tag_text" format="string"/>
+        <!--左侧文字大小-->
+        <attr name="tag_Size" format="dimension"/>
+        <!--左侧文字颜色-->
+        <attr name="tag_Color" format="reference"/>
+        <!--输入文字大小-->
+        <attr name="input_Size" format="dimension"/>
+        <!--输入文字颜色-->
+        <attr name="input_Color" format="reference"/>
+        <!--输入文字Hint大小-->
+        <attr name="input_Hint_Size" format="dimension"/>
+        <!--输入文字Hint-->
+        <attr name="input_Hint_color" format="reference"/>
+        <!--输入文字Hint-->
+        <attr name="input_Hint" format="string"/>
+        <!--删除按钮图片-->
+        <attr name="cancel_resId" format="reference"/>
+    </declare-styleable>
+</resources>
